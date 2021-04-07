@@ -10,6 +10,7 @@
   copy:
    src: ta-lib
    dest: /tmp/
+   mode: preserve
 
 - name: Running ./configure && make && make install
   shell: cd /tmp/ta-lib && ./configure && make && make install
