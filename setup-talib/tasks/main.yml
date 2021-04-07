@@ -4,7 +4,7 @@
 - name: Copying source code to host
   copy:
    src: ta-lib
-   dest: /tmp/ta-lib
+   dest: /tmp/
 
 - name: Running ./configure && make && make install
   shell: cd /tmp/ta-lib && ./configure && make && make install
