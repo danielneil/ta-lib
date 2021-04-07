@@ -1,6 +1,6 @@
 # Ta-lib
 
-This prepares a debian system for ta-lib development. 
+Prepare a Debian 10 system for ta-lib development. 
 
 https://www.ta-lib.org/
 
