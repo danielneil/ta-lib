@@ -1,4 +1,4 @@
-# Ta-lib - This prepares a debian system for ta-lib development.  
+# Ta-lib
 
 This prepares a debian system for ta-lib development.  
 
