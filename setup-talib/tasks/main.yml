@@ -1,6 +1,11 @@
 ---
 # tasks file for build-ta-lib
 
+- name: Installing build toos
+  apt:
+   name: build-essential
+   state: latest
+
 - name: Copying source code to host
   copy:
    src: ta-lib
