@@ -1,7 +1,7 @@
 ---
 # tasks file for build-ta-lib
 
-- name: Installing build toos
+- name: Installing the debian build tools
   apt:
    name: build-essential
    state: latest
