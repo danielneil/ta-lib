@@ -1,0 +1,7 @@
+---
+- name: Setting up system for ta-lib development
+  hosts: talib-system
+  become: true
+  roles:
+  - setup-talib
+  
