@@ -1,5 +1,10 @@
 ---
 # tasks file for build-ta-lib
 
+- name: Copying source code to host
+  copy:
+   src: ta-lib
+   dest: /tmp/ta-lib
+
 - name: Running ./configure && make && make install
-  shell: ./configure && make && make install
+  shell: cd /tmp/ta-lib && ./configure && make && make install
